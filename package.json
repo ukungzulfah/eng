@@ -1,0 +1,22 @@
+{
+  "author": "ukungzulfah",
+  "name": "eng",
+  "description": "Nodejs MVC Framework",
+  "version": "0.0.9",
+  "repository": {
+	"type": "git",
+    "url": "https://github.com/ukungzulfah/eng.git"
+  },
+  "main": "./lib/server.js",
+  "keywords": [
+    "Framework",
+    "mvc"
+  ],
+  "bin": {
+    "eng": "./bin/ukung"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
