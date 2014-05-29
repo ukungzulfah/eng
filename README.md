@@ -59,7 +59,7 @@ $ eng create-controller // and follow instruction example: test
 ```sh
 	exports.test = {
 		
-		home_index: function(){
+		test_index: function(){
 			this.setContent("Hello World");
 		}
 		
@@ -72,11 +72,11 @@ $ eng create-controller // and follow instruction example: test
 ```sh
 	exports.test = {
 		
-		home_index: function(){
+		test_index: function(){
 			this.setContent("Hello World");
 		}
 		
-		home_second: function(){
+		test_second: function(){
 			this.setContent("Hello World second");
 		}
 		
@@ -95,7 +95,7 @@ $ eng create-controller // and follow instruction example: test
 			this.name = 'ukungzulfah';
 		},
 		
-		home_index: function(){
+		test_index: function(){
 			this.setContent("Hello " + this.name);
 		}
 		
@@ -127,7 +127,7 @@ $ eng create-controller // and follow instruction example: test
 			this.mylib = this.libs.getLibName();
 		},
 		
-		home_index: function(){
+		test_index: function(){
 			this.setContent( this.name +" "+ this.mylib );
 		}
 		
@@ -165,7 +165,7 @@ $ eng create-controller // and follow instruction example: test
 ```sh
 	exports.test = {
 		
-		home_index: function(){
+		test_index: function(){
 			var self=this;
 			self.model('user', function(){
 				self.setContent( self.user.getUserName() );
@@ -200,7 +200,7 @@ $ eng create-controller // and follow instruction example: test
 ```sh
 	exports.test = {
 		
-		home_index: function(){
+		test_index: function(){
 			var self=this;
 			var data = {
 				title: "Eng MVC Node.js",
