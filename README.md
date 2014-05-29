@@ -1,4 +1,4 @@
-eng
+Eng
 ===
 
 Eng Engine is a framework that uses the concept of MVC node.js
@@ -22,7 +22,7 @@ $ eng install // and follow instruction
 
 **Next Run Project:**
 ```sh
-# cd into the new folder
+# cd into the new folder example project: tester
 $ cd tester
 
 # fire up the server
@@ -52,7 +52,7 @@ $ eng uninstall project_name
 
 **Create Controller Project:**
 ```sh
-$ eng create_controller // and follor instruction example: test
+$ eng create_controller // and follow instruction example: test
 ```
 
 **Eng will generate code:**
