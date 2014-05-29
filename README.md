@@ -52,7 +52,7 @@ $ eng uninstall project_name
 
 **Create Controller Project:**
 ```sh
-$ eng create_controller // and follow instruction example: test
+$ eng create-controller // and follow instruction example: test
 ```
 
 **Eng will generate code:**
