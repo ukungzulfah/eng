@@ -1,22 +1,33 @@
 {
-  "author": "ukungzulfah",
   "name": "eng",
+  "version": "0.0.6",
   "description": "Nodejs MVC Framework",
-  "version": "0.0.9",
+  "main": "./lib/eng.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
-	"type": "git",
+    "type": "git",
     "url": "https://github.com/ukungzulfah/eng.git"
   },
-  "main": "./lib/server.js",
   "keywords": [
     "Framework",
-    "mvc"
+    "MVC",
+    "Nodejs"
   ],
   "bin": {
     "eng": "./bin/ukung"
   },
-  "dependencies": {},
-  "engines": {
-    "node": "*"
-  }
+  "author": {
+    "name": "ukungzulfah"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ukungzulfah/eng/issues"
+  },
+  "homepage": "https://github.com/ukungzulfah/eng",
+  "readme": "eng\n===\n\nNodejs MVC Framework\n",
+  "readmeFilename": "README.md",
+  "_id": "eng@0.0.6",
+  "_from": "eng@"
 }
