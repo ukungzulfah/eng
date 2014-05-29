@@ -39,7 +39,7 @@ $ eng uninstall project_name
 
 **Application/Controll/home.js:**
 ```sh
-	export.home = {
+	exports.home = {
 		
 		home_index: function(){
 			this.setContent("Hello World");
@@ -57,7 +57,7 @@ $ eng create_controller // and follor instruction example: test
 
 **Eng will generate code:**
 ```sh
-	export.test = {
+	exports.test = {
 		
 		home_index: function(){
 			this.setContent("Hello World");
@@ -70,7 +70,7 @@ $ eng create_controller // and follor instruction example: test
 
 **Create any method:**
 ```sh
-	export.test = {
+	exports.test = {
 		
 		home_index: function(){
 			this.setContent("Hello World");
@@ -87,7 +87,7 @@ $ eng create_controller // and follor instruction example: test
 
 **Create __construct:**
 ```sh
-	export.test = {
+	exports.test = {
 		
 		name: '',
 		
@@ -106,7 +106,7 @@ $ eng create_controller // and follor instruction example: test
 
 **Create autoload Model & Library:**
 ```sh
-	export.test = {
+	exports.test = {
 		
 		name: '',
 		mylib: '',
@@ -135,13 +135,13 @@ $ eng create_controller // and follor instruction example: test
 	
 	
 	// Create Model in Application/Model/user.js
-	export.user = {
+	exports.user = {
 		getUserName: function(){ return 'ukungzulfah'; }
 	};
 	
 	
 	// Create Library in System/Lib/libs.js
-	export.libs = {
+	exports.libs = {
 		getLibName: function(){ return 'ukungzulfah'; }
 	};
 	
@@ -157,13 +157,13 @@ $ eng create_controller // and follor instruction example: test
 **Create Example Model:**
 **Application/Model/user.js:**
 ```sh
-	export.user = {
+	exports.user = {
 		getUserName: function(){ return 'ukungzulfah'; }
 	};
 ```
 **Example Call Model from Controller:**
 ```sh
-	export.test = {
+	exports.test = {
 		
 		home_index: function(){
 			var self=this;
@@ -198,7 +198,7 @@ $ eng create_controller // and follor instruction example: test
 ```
 **Example Call View from Controller and send data to View:**
 ```sh
-	export.test = {
+	exports.test = {
 		
 		home_index: function(){
 			var self=this;
