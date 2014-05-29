@@ -16,7 +16,7 @@ $ sudo npm install eng -g // require -g
 
 **Create a new Project:**
 ```sh
-# Create the app
+# Create the app example project: tester
 $ eng install // and follow instruction
 ```
 
